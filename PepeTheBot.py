@@ -12,8 +12,10 @@ import random
 import os
 from os import path
 from random import uniform, choice, randint
-client = BotAmino("email", "password") #Type email and password/Введите пароль и почту сюда
-vers = "1.1.4"
+email = input("Email: ")
+password = input("Password: ")
+client = BotAmino(email=email, password=password)
+vers = "1.1.7"
 print(f"Bot Version = {vers}")
 
 @client.command("vkidsnusovski")
