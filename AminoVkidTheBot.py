@@ -1,4 +1,4 @@
-#Bot Amino Pepe version 2.0.2 by Lil Zevi/Langa
+#Bot Amino VkidSnusovski version 2.0.4 by Lil Zevi/Langa
 # -*- coding: utf8 -*-
 from BotAmino import *
 from fancy_text import fancy
@@ -15,7 +15,7 @@ from random import uniform, choice, randint
 email = input("Email: ")
 password = input("Password: ")
 client = BotAmino(email=email, password=password)
-vers = "1.1.7"
+vers = "2.0.4"
 print(f"Bot Version = {vers}")
 
 @client.command("vkidsnusovski")
