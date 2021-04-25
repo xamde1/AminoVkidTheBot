@@ -1,5 +1,18 @@
 # AminoPepeTheBot
 PepeTheBot/Игровой бот Амино\Game Bot Amino.
+# ` Prefix in the Bot = !Command`
+# ` Префикс в Боте = !Команда`
+# Termux installation/Установка в Termux!
+- apt update
+- apt upgrade
+- pkg install python
+- pip install colorama
+- pip install BotAmino
+- apt install git
+- git clone https://github.com/LilZevi/AminoVkidTheBot
+- Для запуска/For starting
+- cd AminoVkidTheBot
+- python AminoVkidTheBot.py
 # Bot Commands Rus
 - !vkidsnusovski [Информация о боте!]
 - !zabiv [игрок1, игрок2] - Игра забив без правил ауе🦁💪🏿
